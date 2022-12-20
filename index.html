@@ -16,7 +16,7 @@
 <body>
     <div class="container">
         <div class="row mt-5">
-          <div class="col-4">
+          <div class="col-6">
             <div class="card">
               <div class="card-body">
                 <h3 class="card-title">Estudiante</h3>
@@ -38,7 +38,7 @@
               </div>
             </div>
           </div>
-          <div class="col-4">
+          <div class="col-6">
             <div class="card">
               <div class="card-body">
                 <h3 class="card-title">Profesor</h3>
@@ -55,15 +55,85 @@
                   <input type="text" name="title" id="title" class="form-control" placeholder="001" >
                   <label for="" class="form-label">Area</label>
                   <select class="form-select form-select-lg" name="area" id="area"></select>
-                  <input name="" id="" class="btn btn-primary mt-3 " type="button" value="Registrar Estudiante" onclick="addTeacher()">                
+                  <input name="" id="" class="btn btn-primary mt-3 " type="button" value="Registrar Profesor" onclick="addTeacher()">                
                 </div>
               </div>
             </div>
           </div>
         </div>
+        <div class="mt-2">
+          <div class="card ">
+            <div class="card-body">
+              <h3 class="card-title">Actividad</h3>
+              <div class="mb-3">
+                <label for="" class="form-label">Nombre</label>
+                <input type="text" name="activity" id="activity" class="form-control" placeholder="Prueba Parcial" >
+                <input name="" id="" class="btn btn-primary mt-3 " type="button" value="Agregar Actividad" onclick="addActivity()">                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-2">
+          <div class="card ">
+            <div class="card-body">
+              <h3 class="card-title">Curso</h3>
+              <div class="mb-3">
+                <label for="" class="form-label">Nombre</label>
+                <input type="text" name="course" id="course" class="form-control" placeholder="Desarrollo de Software" >
+                <input name="" id="" class="btn btn-primary mt-3 " type="button" value="Agregar Curso" onclick="addCourses()">                
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="mt-2">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-title">Libro de Calificaciones</h3>
+              <div class="mb-3">
+                <label for="" class="form-label">Valor</label>
+                <input type="text" name="nameTeacher" id="nameTeacher" class="form-control" placeholder="100% " >
+                <label for="" class="form-label">Actividad</label>
+                <select class="form-select form-select-lg" name="activity-GradeBook" id="activity-GradeBook"></select>
+                <label for="" class="form-label">Curso</label>
+                <select class="form-select form-select-lg" name="course-GradeBook" id="course-GradeBook"></select>
+                <label for="" class="form-label">Nota Maxima</label>
+                <input type="text" name="nameTeacher" id="nameTeacher" class="form-control" placeholder="100% " >
+                <input name="" id="" class="btn btn-primary mt-3 " type="button" value="Registrar Profesor" onclick="">                
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
+    <!-- Tabla para mostrar datos -->
 
-
+    <div class="table-responsive mt-2">
+      <table class="table table-primary">
+        <thead>
+          <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Matricula</th>
+            <th scope="col">Nivel</th>
+            <th scope="col">Curso</th>
+            <th scope="col">Profesor</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="">
+            <td scope="row">R1C1</td>
+            <td>R1C2</td>
+            <td>R1C3</td>
+          </tr>
+          <tr class="">
+            <td scope="row">Item</td>
+            <td>Item</td>
+            <td>Item</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    
 
 
 

@@ -1,0 +1,77 @@
+ @import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap'); 
+
+
+
+.contenedor{
+    background-color: black;
+    width: 600px;
+    height: 900px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.titulo{
+    margin: 0 auto;
+}
+
+.menu{
+    color: rgb(255, 188, 2);
+    font-family: 'Oleo Script', cursive;
+    height: 15px;
+    
+}
+
+.restaurante{
+    color: white;
+    margin: 0, auto;
+    height: 15px;
+}
+.lineahr{
+    background-color: rgb(255, 188, 2);
+    width: 200px;
+    margin: 0 auto;
+}
+
+hr{
+    border-color: rgb(255, 188, 2);
+    height: 2px;
+}
+
+.parrafo{
+    width: 300px;
+    margin: 0 auto;
+}
+p{
+    color: white;
+    height: 40px;
+}
+
+.puntos h1{
+    color: rgb(255, 188, 2);
+    font-size: 80px;
+    margin-top: -50px;
+}
+
+.contenedor2{
+    border: 3px solid rgb(255, 188, 2);
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.contenedor2-1{
+  border: 3px solid rgb(255, 188, 2);
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: -40px;
+  border-style: dashed;
+  height: 480px;
+}
+
+.rectangulo{
+    background-color: rgb(255, 188, 2);
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+}
